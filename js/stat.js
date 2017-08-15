@@ -30,4 +30,4 @@ window.renderStatistics = function (ctx, names, times) {
     ctx.fillStyle = '#000000';
     ctx.fillText(names[j], 200 + histogramColumnStep * j, -(times[j] * step) + 240);
   }
-}
+};
